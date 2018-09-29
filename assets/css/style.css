@@ -1,0 +1,33 @@
+/* nav color*/
+
+
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+/*navbar*/
+
+.navbar a {
+    float: right;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+/*hover*/
+
+.navbar a:hover {
+    background-color: #4aaaa5;
+    color: black;
+}
+
+/* selected nav*/
+
+.navbar a.active {
+    background-color: #4aaaa5;
+    color: white;
+}
